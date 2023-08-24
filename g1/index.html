@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -18,17 +18,118 @@ fbq('track', 'ViewContent');
 src="https://www.facebook.com/tr?id=241670025515459&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<head>
-<meta http-equiv="refresh" content="5;url=https://api.whatsapp.com/send?phone=553597414768&text=Oi%20meu%20bem,%20gostaria%20de%20comprar%20seu%20conte%C3%BAdo%20e%20*GANHAR*%20uma%20chamada%20de%20v%C3%ADdeo%20pra%20vc%20me%20mostrar%20tudinho!!!%F0%9F%98%8B%F0%9F%98%8B%F0%9F%98%8B">
-<title>Redirecionando...</title>
-</head>
-<body>
-<p>Para GANHAR uma Chamada de Vídeo Agora no Whatsapp, <a href="https://api.whatsapp.com/send?phone=553597414768&text=Oi%20meu%20bem,%20gostaria%20de%20comprar%20seu%20conte%C3%BAdo%20e%20*GANHAR*%20uma%20chamada%20de%20v%C3%ADdeo%20pra%20vc%20me%20mostrar%20tudinho!!!%F0%9F%98%8B%F0%9F%98%8B%F0%9F%98%8B">CLIQUE AQUI</a>.</p>
 <script>
-    // Redirecionamento caso o navegador não suporte a meta tag de refresh
-    setTimeout(function() {
-        window.location.href = "https://api.whatsapp.com/send?phone=553597414768&text=Oi%20meu%20bem,%20gostaria%20de%20comprar%20seu%20conte%C3%BAdo%20e%20*GANHAR*%20uma%20chamada%20de%20v%C3%ADdeo%20pra%20vc%20me%20mostrar%20tudinho!!!%F0%9F%98%8B%F0%9F%98%8B%F0%9F%98%8B";
-    }, 000); // 000ms = 0 segundos
+var back_redirect_back_link = 'https://api.whatsapp.com/send?phone=553599414768&text=Ol%C3%A1,%20Ganhei%20uma%20*CHAMADA%20DE%20V%C3%8DDEO*%20e%20quero%20saber%20como%20fa%C3%A7o%20para%20realiza-la%20agora!%20%F0%9F%98%8B%F0%9F%98%8B%F0%9F%98%8B';
+history['pushState']({}, '', location['href']);
+history['pushState']({}, '', location['href']);
+window['onpopstate'] = function() {
+setTimeout(function() {
+location['href'] = back_redirect_back_link
+}, 1)
+}</script>
+<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="m4x6e4bv3tctwprai0w7h80q48hy5g" />
+    <title>📞 Chama no 👉 Zap...👉👉</title>
+    <style>
+      * {
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .container {
+        text-align: center;
+        background-color: white;
+      }
+
+      .img-section {
+        margin-top: 20px;
+      }
+
+      .text-section {
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 30px;
+        margin-top: 30px
+      }
+
+      .bold-text {
+        font-weight: bold;
+        font-size: 13px;
+      }
+
+      .button {
+        background-color: #2DD800;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 800;
+        border-radius: 10px;
+        font-size: 21px;
+        margin: 15px;
+         animation: pulse 1s infinite;
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .button img {
+        height: 25px;
+        width: 25px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+       <div class="text-section">
+  <span id="text-apenas">Contagem Regressiva</span> <span id="counter">5</span> <span id="text-vagas"></span><br><br>👇👇
+</div>
+      <a href="https://api.whatsapp.com/send?phone=553597414768&text=Oi%20meu%20bem,%20gostaria%20de%20comprar%20seu%20conte%C3%BAdo%20e%20*GANHAR*%20uma%20chamada%20de%20v%C3%ADdeo%20pra%20vc%20me%20mostrar%20tudinho!!!%F0%9F%98%8B%F0%9F%98%8B%F0%9F%98%8B" class="button">
+        CHAMADA DE VÍDEO AGORA NO WHATSAPP!
+      </a>
+    </div>
+<script>
+  var counter = 5;
+  var intervalId = null;
+
+  function startCountdown() {
+    intervalId = setInterval(function() {
+      counter--;
+      if (counter <= 1) {
+        clearInterval(intervalId);
+        document.getElementById("counter").innerText = " ÚLTIMA vaga de Hoje "; // altera o texto quando o contador chega a 1
+        document.getElementById("text-apenas").style.display = "none"; // esconde a palavra 'Apenas'
+        document.getElementById("text-vagas").style.display = "none"; // esconde o texto 'Vagas no Whatsapp'
+        document.getElementById("counter").classList.add("pulse"); // adiciona a classe 'pulse' para iniciar a animação
+      } else {
+        document.getElementById("counter").innerText = counter.toString();
+      }
+    }, 1500);
+  }
+
+  startCountdown();
 </script>
-</body>
+  </body>
 </html>
